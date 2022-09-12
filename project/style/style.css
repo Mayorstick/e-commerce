@@ -1,0 +1,141 @@
+h1{
+    
+    margin: 100px;
+    font-weight: bolder !important;
+}
+
+ul li {
+    
+    
+    padding-left: 15px;
+   
+    
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat;
+    background-size: cover;
+    -webkit-background-size:cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    margin-bottom:  100px;
+
+}
+
+.carousel-caption h5{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 85px;
+    font-weight: 800;
+    line-height: 1.1em;
+    color: #FED000;
+    
+}
+
+.carousel-caption p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    margin: -5px 0px 0px 0px;
+    padding: 20px 0px 0px 0px
+}
+
+.slider-btn{
+    margin-top: 30px;
+}
+
+.slider-btn .btn{
+    background: #000;
+    color: white;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    width: 200px;
+    height: 60px;
+    border-radius: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    
+}
+
+.slider-btn .btn:hover {
+   opacity: 1;
+}
+.center{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.center h5{
+    font-family: Roboto;
+    font-weight: bolder;
+    line-height: 28px;
+    text-transform: none;
+    font-size: 34px;
+    color: #272727;
+}
+
+.center p{
+   color: #FED000;
+}
+
+.card{
+    margin-top: 10px;
+    text-align: center;
+    outline: 0px;
+    margin-left: 50px;
+    outline: none;
+    border: none;
+    margin-right: 50px;
+    
+}
+.card{
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+
+}
+
+
+.card img{
+    width: 247px;
+    aspect-ratio: auto 247 / 247;
+    height: 247px;
+    margin-left: 50px;
+}
+.card h5{
+    font-size: 11px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+.card-text{
+    text-align: center !important;
+}
+.card a{
+    text-decoration: none;
+}
+
